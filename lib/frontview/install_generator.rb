@@ -11,10 +11,10 @@ require "frontview/contents/index_routes_content"
 module Frontview
   class InstallGenerator < Rails::Generators::Base
     def create_assets_contents
-    	tempfile = Down.download("https://mumusimages.herokuapp.com/assets/self/logo.png")
+    	tempfile = Down.download("https://viewfront.herokuapp.com/assets/logo.png")
       FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
 
-      tempfile = Down.download("https://mumusimages.herokuapp.com/assets/self/favicon.png")
+      tempfile = Down.download("https://viewfront.herokuapp.com/assets/favicon.png")
       FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
 
       Dir.mkdir("app/assets/stylesheets/css") unless File.exists?("app/assets/stylesheets/css")

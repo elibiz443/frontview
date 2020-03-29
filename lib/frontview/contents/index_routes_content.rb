@@ -39,11 +39,11 @@ module Frontview
           <div class="relative">
             <div class="thumb">
               <div class="overlay overlay-bg"></div>
-              <img class="image img-fluid" src="https://mumusimages.herokuapp.com/assets/p1.jpg" alt="Image1">
+              <img class="image img-fluid" src="https://viewfront.herokuapp.com/assets/p1.jpg" alt="Image1">
             </div>
-            <a href="https://mumusimages.herokuapp.com/assets/p1.jpg" class="img-pop-up">  
+            <a href="https://viewfront.herokuapp.com/assets/p1.jpg" class="img-pop-up">  
               <div class="middle">
-                <div class="text align-self-center d-flex"><img src="https://mumusimages.herokuapp.com/assets/self/preview.png" alt="Preview Image"></div>
+                <div class="text align-self-center d-flex"><img src="https://viewfront.herokuapp.com/assets/preview.png" alt="Preview Image"></div>
               </div>
             </a>                                  
           </div>
@@ -52,11 +52,11 @@ module Frontview
           <div class="relative">
             <div class="thumb">
               <div class="overlay overlay-bg"></div>
-              <img class="image img-fluid" src="https://mumusimages.herokuapp.com/assets/p2.jpg" alt="Image2">
+              <img class="image img-fluid" src="https://viewfront.herokuapp.com/assets/p2.jpg" alt="Image2">
             </div>
-            <a href="https://mumusimages.herokuapp.com/assets/p2.jpg" class="img-pop-up">  
+            <a href="https://viewfront.herokuapp.com/assets/p2.jpg" class="img-pop-up">  
               <div class="middle">
-                <div class="text align-self-center d-flex"><img src="https://mumusimages.herokuapp.com/assets/self/preview.png" alt="Preview Image"></div>
+                <div class="text align-self-center d-flex"><img src="https://viewfront.herokuapp.com/assets/preview.png" alt="Preview Image"></div>
               </div>
             </a>                                  
           </div>
@@ -65,11 +65,11 @@ module Frontview
           <div class="relative">
             <div class="thumb">
               <div class="overlay overlay-bg"></div>
-              <img class="image img-fluid" src="https://mumusimages.herokuapp.com/assets/p3.jpg" alt="Image3">
+              <img class="image img-fluid" src="https://viewfront.herokuapp.com/assets/p3.jpg" alt="Image3">
             </div>
-            <a href="https://mumusimages.herokuapp.com/assets/p3.jpg" class="img-pop-up">  
+            <a href="https://viewfront.herokuapp.com/assets/p3.jpg" class="img-pop-up">  
               <div class="middle">
-                <div class="text align-self-center d-flex"><img src="https://mumusimages.herokuapp.com/assets/self/preview.png" alt="Preview Image"></div>
+                <div class="text align-self-center d-flex"><img src="https://viewfront.herokuapp.com/assets/preview.png" alt="Preview Image"></div>
               </div>
             </a>                                  
           </div>
@@ -78,11 +78,11 @@ module Frontview
           <div class="relative">
             <div class="thumb">
               <div class="overlay overlay-bg"></div>
-              <img class="image img-fluid" src="https://mumusimages.herokuapp.com/assets/p4.jpg" alt="Image4">
+              <img class="image img-fluid" src="https://viewfront.herokuapp.com/assets/p4.jpg" alt="Image4">
             </div>
-            <a href="https://mumusimages.herokuapp.com/assets/p4.jpg" class="img-pop-up">  
+            <a href="https://viewfront.herokuapp.com/assets/p4.jpg" class="img-pop-up">  
               <div class="middle">
-                <div class="text align-self-center d-flex"><img src="https://mumusimages.herokuapp.com/assets/self/preview.png" alt="Preview Image"></div>
+                <div class="text align-self-center d-flex"><img src="https://viewfront.herokuapp.com/assets/preview.png" alt="Preview Image"></div>
               </div>
             </a>                                  
           </div>
@@ -91,11 +91,11 @@ module Frontview
           <div class="relative">
             <div class="thumb">
               <div class="overlay overlay-bg"></div>
-              <img class="image img-fluid" src="https://mumusimages.herokuapp.com/assets/p5.jpg" alt="Image5">
+              <img class="image img-fluid" src="https://viewfront.herokuapp.com/assets/p5.jpg" alt="Image5">
             </div>
-            <a href="https://mumusimages.herokuapp.com/assets/p5.jpg" class="img-pop-up">  
+            <a href="https://viewfront.herokuapp.com/assets/p5.jpg" class="img-pop-up">  
               <div class="middle">
-                <div class="text align-self-center d-flex"><img src="https://mumusimages.herokuapp.com/assets/self/preview.png" alt="Preview Image"></div>
+                <div class="text align-self-center d-flex"><img src="https://viewfront.herokuapp.com/assets/preview.png" alt="Preview Image"></div>
               </div>
             </a>                                  
           </div>
@@ -104,11 +104,11 @@ module Frontview
           <div class="relative">
             <div class="thumb">
               <div class="overlay overlay-bg"></div>
-              <img class="image img-fluid" src="https://mumusimages.herokuapp.com/assets/p6.jpg" alt="Image6">
+              <img class="image img-fluid" src="https://viewfront.herokuapp.com/assets/p6.jpg" alt="Image6">
             </div>
-            <a href="https://mumusimages.herokuapp.com/assets/p6.jpg" class="img-pop-up">  
+            <a href="https://viewfront.herokuapp.com/assets/p6.jpg" class="img-pop-up">  
               <div class="middle">
-                <div class="text align-self-center d-flex"><img src="https://mumusimages.herokuapp.com/assets/self/preview.png" alt="Preview Image"></div>
+                <div class="text align-self-center d-flex"><img src="https://viewfront.herokuapp.com/assets/preview.png" alt="Preview Image"></div>
               </div>
             </a>                                  
           </div>
