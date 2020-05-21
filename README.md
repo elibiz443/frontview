@@ -32,20 +32,20 @@ Generate the necessary files and folders by:
 
     $ rails g frontview:install
 
-## N/B: You will be prompted to give the name of your model,
-  In this case we will write 'home' and press enter. All the files will then be in place. 
+N/B: You will be prompted to give the name of your model,
+In this case we will write 'home' and press enter. All the files will then be in place. 
 
-## Create & Migrate DB
+Create & Migrate DB
 
     $ rails db:create && rails db:migrate
 
-## Finally run the rails server and you are good to go:
+Finally run the rails server and you are good to go:
 
     $ rails s
 
 Access you web in: localhost:3000
 
-## This gem is suitable for a new project. It helps to kickstart everything very fast. 
+This gem is suitable for a new project. It helps to kickstart everything very fast. 
 If everything runs perfectly, don't forget to follow on twitter ========> https://twitter.com/frontview3
 
 ## Congrats
