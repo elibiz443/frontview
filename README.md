@@ -38,7 +38,6 @@ Generate the necessary files and folders by:
 don't forget to follow on twitter ========> https://twitter.com/frontview3
 
 ## Thanks a lot
-"
 
                              \
                             / \
@@ -61,9 +60,6 @@ don't forget to follow on twitter ========> https://twitter.com/frontview3
      /_____/     \    / /          |   
                   \  /_/___________/
                    \_________/
-
-
-"
 
 ## Development
 
