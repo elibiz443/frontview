@@ -22,12 +22,48 @@ Or install it yourself as:
 
 ## Usage
 
-Add the gem to your gemfile and then run bundle install. Respective files and folders will be added to your application. Configure and modify the files and folders in accordance with your preference. 
+Add the gem to your gemfile and then run bundle install. Respective files and folders will be added to your application. Configure and modify the files and folders in accordance with your preference.
+
+It's better if you then run the scaffold. Lets assume our model is 'example' which has a 'title' and a 'body'
+
+    $ rails g scaffold example title:string body:text
 
 Generate the necessary files and folders by:
 
     $ rails g frontview:install
 
+## N/B: You will be prompted to give the name of your model,
+  In this case we will write 'home' and press enter. Other files
+  were already created by the scaffold so we have to overwrite them by typing 'Y' when prompted. All the files will then be in place. This gem is suitable for a new project. It helps to kickstart everything very fast. If everything runs perfectly, 
+don't forget to follow on twitter ========> https://twitter.com/frontview3
+
+## Thanks a lot
+"
+
+                             \
+                            / \
+                           /   \
+                          /    |
+                         /     |
+                        /     /
+                      _/     /
+    ___________      /      /
+          |   |_____/      /_________
+          |   |    /      /\___      \
+          |   |   /        /  /      |
+          |   |  /        /__/_______/__
+          |   | |     ___ /             \
+          /   | |    /  /               |
+         /    | |   /__/________________/
+        /     | |      ___/           \
+       /  ___ | |     /  /            |
+      /  [___]|_|    /__/_____________/
+     /_____/     \    / /          |   
+                  \  /_/___________/
+                   \_________/
+
+
+"
 
 ## Development
 

@@ -7,7 +7,48 @@ Gem::Specification.new do |spec|
   spec.email         = ["elibiz443@gmail.com"]
 
   spec.summary       = "Simple gem that creates folders & files for front-end rails web apps"
-  spec.description   = "This creates folders & files for front-end rails web apps"
+  spec.description   = "This gem creates folders & files that are meant for the Views of your rails web app so as to
+  provide easier starting point in your development process. You can check the github repo for this gem. 
+  ======>  https://github.com/elibiz443/frontview (Here you will get to have a step by step usage of the gem)
+
+  **Usage summary:
+  Add this line to your application's Gemfile:
+    ==> gem 'frontview'
+  And then execute:
+    ==> $ bundle install
+  It's better if you then run the scaffold. Lets assume our model is 'example' which has a 'title' and a 'body'
+    ==> rails g scaffold example title:string body:text
+  Generate the necessary files and folders by:
+    ==> $ rails g frontview:install
+  N/B: You will be prompted to give the name of your model, in this case we will write 'home' and press enter. Other files
+    were already created by the scaffold so we have to overwrite them by typing 'Y' when prompted.
+  All the files will then be in place. This gem is suitable for a new project. It helps to kickstart everything very fast. If 
+  everything runs perfectly, don't forget to follow on twitter ========> https://twitter.com/frontview3
+  Also remember to give a contribution. Make the gem better than it already is.
+                             \
+                            / \
+                           /   \
+                          /    |
+                         /     |
+                        /     /
+                      _/     /
+    ___________      /      /
+          |   |_____/      /_________
+          |   |    /      /\___      \
+          |   |   /        /  /      |
+          |   |  /        /__/_______/__
+          |   | |     ___ /             \
+          /   | |    /  /               |
+         /    | |   /__/________________/
+        /     | |      ___/           \
+       /  ___ | |     /  /            |
+      /  [___]|_|    /__/_____________/
+     /_____/     \    / /          |   
+                  \  /_/___________/
+                   \_________/
+
+
+  "
   spec.homepage      = "https://rubygems.org/gems/frontview"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
@@ -29,8 +70,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "codelog", "~> 0.8.0"
   spec.add_development_dependency "down", "~> 5.0"
-  spec.add_development_dependency "rails", "~> 6.0.2", ">= 6.0.2.2"
+  spec.add_development_dependency "rails", "~> 6.0.3", ">= 6.0.3.1"
 
   spec.add_dependency "down", "~> 5.0"
-  spec.add_dependency "rails", "~> 6.0.2", ">= 6.0.2.2"
+  spec.add_dependency "rails", "~> 6.0.3", ">= 6.0.3.1"
 end
