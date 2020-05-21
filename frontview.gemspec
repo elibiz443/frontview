@@ -7,29 +7,10 @@ Gem::Specification.new do |spec|
   spec.email         = ["elibiz443@gmail.com"]
 
   spec.summary       = "Simple gem that creates folders & files for front-end rails web apps"
-  spec.description   = "This gem creates folders & files that are meant for the Views of your rails web app so as to
-  provide easier starting point in your development process.\n
-  You can check the github repo for this gem:\n 
-    \t ======> https://github.com/elibiz443/frontview (Here you will get to have a step by step usage of the gem)\n
-  Usage summary:\n
-  Add this line to your application's Gemfile:\n
-    \t ==> gem 'frontview'\n
-  And then execute:\n
-    \t ==> $ bundle install\n
-  It's better if you then run the scaffold. Lets assume our model is 'example' which has a 'title' and a 'body'\n
-    \t ==> rails g scaffold example title:string body:text\n
-  Generate the necessary files and folders by:\n
-    \t ==> $ rails g frontview:install\n
-  N/B: You will be prompted to give the name of your model, In this case we will write 'home' and press enter.\n
-  All the files will then be in place.\n
-  Create & Migrate DB by:\n
-    \t ==> $ rails db:create && rails db:migrate\n
-  Finally run the rails server and you are good to go:\n
-    \t ==> $ rails s \n
-  Access you web in: localhost:3000 \n
-  This gem is suitable for a new project. It helps to kickstart everything very fast.\n
-  Remember to give a contribution. Make the gem better than it already is.\n
-  Also you can follow on twitter ========> https://twitter.com/frontview3"
+  spec.description   = "This gem creates folders and files that are meant for the Views of your rails web app so as to
+  provide easier starting point to your development process.\n You can check the github repo for this gem:\n 
+  \t ======> https://github.com/elibiz443/frontview (Here you will get to have a step by step usage of the gem)\n
+  Remember to give a contribution. Make the gem better than it already is."
   spec.homepage      = "https://rubygems.org/gems/frontview"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
