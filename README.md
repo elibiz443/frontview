@@ -28,6 +28,8 @@ It's better if you then run the scaffold. Lets assume our model is 'example' whi
 
     $ rails g scaffold example title:string body:text
 
+Delete scaffold.scss, from (assets/stylesheets/scaffold.scss)
+
 Generate the necessary files and folders by:
 
     $ rails g frontview:install
@@ -44,6 +46,16 @@ Finally run the rails server and you are good to go:
     $ rails s
 
 Access you web in: localhost:3000
+
+Optional:
+1. Remove the line '*= require_tree .' from 'assets/stylesheets/application.css'
+2. Remove the line 'require("turbolinks").start()' from 'javascript/packs/application.js'
+3. Comment out (gem 'turbolinks', '~> 5') in the gemfile
+
+Reasons for the above optional procedures:
+
+The first option allows for the individual inclusion of each css file in the 'application.html.erb' file.
+The second and third options disable turbolinks. Rails core team has chose to enable it by default. Unfortunately there are some subtle edge cases and scenarios in which Turbolinks will not work as expected, and for these reasons we don't think it's a great default.
 
 This gem is suitable for a new project. It helps to kickstart everything very fast. 
 If everything runs perfectly, don't forget to follow on twitter ========> https://twitter.com/frontview3
