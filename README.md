@@ -45,7 +45,7 @@ Finally run the rails server and you are good to go:
 
     $ rails s
 
-Access you web in: localhost:3000
+Access your web in: localhost:3000
 
 Optional:
 1. Remove the line '*= require_tree .' from 'assets/stylesheets/application.css'
