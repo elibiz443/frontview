@@ -12,36 +12,49 @@ gem 'frontview'
 
 And then execute:
 
-  $ bundle install
+```
+$ bundle install
+```
 
 Or install it yourself as:
 
-  $ gem install frontview
+```
+$ gem install frontview
+```
 
 ## Usage
 
 Add the gem to your gemfile and then run bundle install.
 Run scaffold. Lets assume our model is 'home' which has a 'title' and a 'body'(Optional)
 
-  $ rails g scaffold home title:string body:text
+```
+$ rails g scaffold home title:string body:text
+```
 
-Delete scaffold.scss, from (assets/stylesheets/scaffold.scss)
-(Optional) - Delete the Sass files i.e homes.scss
+Delete scaffold.scss, from (assets/stylesheets/scaffold.scss).
+
+(Optional) - Delete the Sass files i.e homes.scss.
 
 Generate the necessary files and folders by:
 
-  $ rails g frontview:install
+```
+$ rails g frontview:install
+```
 
 N/B: You will be prompted to give the name of your model,
 In this case you'll write 'home' and press enter. All the files will then be in place. 
 
 Create & Migrate DB
 
-  $ rails db:create && rails db:migrate
+```
+$ rails db:create && rails db:migrate
+```
 
 Finally run the rails server and you are good to go:
 
-  $ rails s
+```
+$ rails s
+```
 
 Access your web in: localhost:3000
 
