@@ -1,8 +1,6 @@
 ![alt text](https://viewfront.herokuapp.com/assets/logo.png)
 
-This is frontview gem, a gem that gives the front-end template to the rails 6 applications for easier web development.
-
-It provides the assets contents i.e folders & files(images[favicon.png & logo.png], stylesheets[css/style.css]), javascript content i.e (javascript/packs/main.js) & the views contents folders & Files ([shared/_header.html.erb || _footer.html.erb || _alerts.html.erb],[views/index.html.erb],[layouts/application.html.erb]).
+This is frontview gem, a gem that gives the front-end template to the rails 6 applications for easier web development. It provides the assets contents i.e folders & files(images[favicon.png & logo.png], stylesheets[css/style.css]), javascript content i.e (javascript/packs/main.js) & the views contents folders & Files.
 
 ## Installation
 
@@ -14,43 +12,42 @@ gem 'frontview'
 
 And then execute:
 
-    $ bundle install
+  $ bundle install
 
 Or install it yourself as:
 
-    $ gem install frontview
+  $ gem install frontview
 
 ## Usage
 
-Add the gem to your gemfile and then run bundle install. Respective files and folders will be added to your application. Configure and modify the files and folders in accordance with your preference.
+Add the gem to your gemfile and then run bundle install.
+Run scaffold. Lets assume our model is 'home' which has a 'title' and a 'body'(Optional)
 
-It's better if you then run the scaffold. Lets assume our model is 'example' which has a 'title' and a 'body'
-
-    $ rails g scaffold example title:string body:text
+  $ rails g scaffold home title:string body:text
 
 Delete scaffold.scss, from (assets/stylesheets/scaffold.scss)
+(Optional) - Delete the Sass files i.e homes.scss
 
 Generate the necessary files and folders by:
 
-    $ rails g frontview:install
+  $ rails g frontview:install
 
 N/B: You will be prompted to give the name of your model,
-In this case we will write 'home' and press enter. All the files will then be in place. 
+In this case you'll write 'home' and press enter. All the files will then be in place. 
 
 Create & Migrate DB
 
-    $ rails db:create && rails db:migrate
+  $ rails db:create && rails db:migrate
 
 Finally run the rails server and you are good to go:
 
-    $ rails s
+  $ rails s
 
 Access your web in: localhost:3000
 
 Optional:
 1. Remove the line '*= require_tree .' from 'assets/stylesheets/application.css'
-2. Remove the line 'require("turbolinks").start()' from 'javascript/packs/application.js'
-3. Comment out (gem 'turbolinks', '~> 5') in the gemfile
+2. Remove or comment the line 'require("turbolinks").start()' from 'javascript/packs/application.js'
 
 Reasons for the above optional procedures:
 
