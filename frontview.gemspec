@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   Remember to give a contribution. Make the gem better than it already is."
   spec.homepage      = "https://rubygems.org/gems/frontview"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.2")
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
@@ -31,8 +31,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "codelog", "~> 0.8.0"
   spec.add_development_dependency "down", "~> 5.0"
-  spec.add_development_dependency "rails", "~> 6.0.3", ">= 6.0.3.1"
+  spec.add_development_dependency 'rails', '~> 6.0.3', '>= 6.0.3.4'
 
   spec.add_dependency "down", "~> 5.0"
-  spec.add_dependency "rails", "~> 6.0.3", ">= 6.0.3.1"
+  spec.add_dependency 'rails', '~> 6.0.3', '>= 6.0.3.4'
 end
