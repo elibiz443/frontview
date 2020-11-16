@@ -76,7 +76,7 @@ You can also support our efforts to always update and provide the best themes fr
 
 ## Sample screenshots of the frontview theme:
 
-Home Screenshot in large screens:
+## Home Screenshot in large screens:
 ![alt text](assets/sample1.png)
 
 ## Features Screenshot:
