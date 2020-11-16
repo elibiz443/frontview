@@ -79,28 +79,20 @@ You can also support our efforts to always update and provide the best themes fr
 Home Screenshot in large screens:
 ![alt text](assets/sample1.png)
 
+## Features Screenshot:
 
-
-Features Screenshot:
-![alt text](assets/sample4.png)
-
-
-
-Pricing Screenshot:
-![alt text](assets/sample5.png)
-
-
-
-Contact Screenshot:
-![alt text](assets/sample6.png)
- 
-
- 
-Home Screenshot in small screens:
 ![alt text](assets/sample2.png)
+
+## Pricing Screenshot:
+
 ![alt text](assets/sample3.png)
 
+## Contact Screenshot:
 
+![alt text](assets/sample4.png)
+ 
+## Home Screenshot in small screens:
+![alt text](assets/sample5.png)
 
 ## Congrats
 
