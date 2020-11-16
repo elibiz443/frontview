@@ -4,32 +4,32 @@ module Frontview
       def write_in_application_file
         File.open("app/views/layouts/application.html.erb", "w+") {
           |file| file.puts(
-            '<!DOCTYPE html>
-            <html lang="en">
-              <head>
-                <title>Frontview || Template</title>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                <%= csrf_meta_tags %>
-                <%= csp_meta_tag %>
-                <%= stylesheet_link_tag \'application\', media: \'all\', \'data-turbolinks-track\': \'reload\' %>
-                <%= javascript_pack_tag \'application\', \'data-turbolinks-track\': \'reload\' %>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
-                <link rel="stylesheet" href="assets/css/style.css">
-                <%= favicon_link_tag asset_path(\'favicon.ico\') %>
-              </head>
-              <body>
-                <%= render \'shared/header\' %>
-                <%= render \'shared/alerts\' %>
-                  <%= yield %>
-                <%= render \'shared/footer\' %>
-                <%= javascript_pack_tag \'main\', \'data-turbolinks-track\': \'reload\' %>
-              </body>
-            </html>'
+'<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Frontview || Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag \'application\', media: \'all\', \'data-turbolinks-track\': \'reload\' %>
+    <%= javascript_pack_tag \'application\', \'data-turbolinks-track\': \'reload\' %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <%= favicon_link_tag asset_path(\'favicon.ico\') %>
+  </head>
+  <body>
+    <%= render \'shared/header\' %>
+    <%= render \'shared/alerts\' %>
+      <%= yield %>
+    <%= render \'shared/footer\' %>
+    <%= javascript_pack_tag \'main\', \'data-turbolinks-track\': \'reload\' %>
+  </body>
+</html>'
           )
         }
       end

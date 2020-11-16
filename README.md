@@ -1,4 +1,4 @@
-![alt text](logo/logo.png)
+![alt text](assets/logo.png)
 
 This is frontview gem, a gem that gives the front-end template to the rails 6 applications for easier web development. It provides the assets contents i.e folders & files(images[favicon.png & logo.png], stylesheets[css/style.css]), javascript content i.e (javascript/packs/main.js) & the views contents folders & Files.
 
@@ -35,6 +35,8 @@ Delete scaffold.scss, from (assets/stylesheets/scaffold.scss).
 
 (Optional) - Delete the Sass files i.e homes.scss.
 
+Delete all the files in views/homes except index.html.erb
+
 Generate the necessary files and folders by:
 
 ```
@@ -69,6 +71,26 @@ The second and third options disable turbolinks. Rails core team has chose to en
 
 This gem is suitable for a new project. It helps to kickstart everything very fast. 
 If everything runs perfectly, don't forget to follow on twitter ========> https://twitter.com/frontview3
+
+You can also support our efforts to always update and provide the best themes free for everyone through: ========> https://www.buymeacoffee.com/elibiz
+
+## Sample screenshots of the frontview theme:
+
+Home Screenshot in large screens:
+![alt text](assets/sample1.png)
+ 
+Home Screenshot in small screens:
+![alt text](assets/sample2.png)
+![alt text](assets/sample3.png)
+
+Features Screenshot:
+![alt text](assets/sample4.png)
+
+Pricing Screenshot:
+![alt text](assets/sample5.png)
+
+Contact Screenshot:
+![alt text](assets/sample6.png)
 
 ## Congrats
 
