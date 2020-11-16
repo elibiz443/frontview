@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.description   = "This gem creates folders and files that are meant for the Views of your rails web app so as to
   provide easier starting point to your development process.\n You can check the github repo for this gem:\n 
   \t ======> https://github.com/elibiz443/frontview (Here you will get to have a step by step usage of the gem)\n
-  Remember to give a contribution. Make the gem better than it already is."
+  Remember to give a contribution. Make the gem better than it already is. You can also support the efforts to always update and provide the best
+  themes free for everyone through: ========> https://www.buymeacoffee.com/elibiz"
   spec.homepage      = "https://rubygems.org/gems/frontview"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")

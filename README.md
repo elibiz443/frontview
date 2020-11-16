@@ -72,7 +72,7 @@ The second and third options disable turbolinks. Rails core team has chose to en
 This gem is suitable for a new project. It helps to kickstart everything very fast. 
 If everything runs perfectly, don't forget to follow on twitter ========> https://twitter.com/frontview3
 
-You can also support our efforts to always update and provide the best themes free for everyone through: ========> https://www.buymeacoffee.com/elibiz
+You can also support the efforts to always update and provide the best themes free for everyone through: ========> https://www.buymeacoffee.com/elibiz
 
 ## Sample screenshots of the frontview theme:
 

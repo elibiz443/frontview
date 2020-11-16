@@ -98,6 +98,8 @@ module Frontview
 
     def show_info
       puts :success
+      puts "You can support the efforts to always update and provide the best
+      themes free for everyone through: ========> https://www.buymeacoffee.com/elibiz"
     end
   end
 end
