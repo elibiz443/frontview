@@ -29,11 +29,11 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 2.1.4"
-  spec.add_development_dependency "codelog", "~> 0.8.0"
-  spec.add_development_dependency "down", "~> 5.0"
-  spec.add_development_dependency 'rails', '~> 6.0.3', '>= 6.0.3.4'
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "codelog"
+  spec.add_development_dependency "down"
+  spec.add_development_dependency "rails"
 
-  spec.add_dependency "down", "~> 5.0"
-  spec.add_dependency 'rails', '~> 6.0.3', '>= 6.0.3.4'
+  spec.add_dependency "down"
+  spec.add_dependency "rails"
 end
