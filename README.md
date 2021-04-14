@@ -15,16 +15,8 @@ And then execute:
 ```
 $ bundle install
 ```
-
-Or install it yourself as:
-
-```
-$ gem install frontview
-```
-
 ## Usage
 
-Add the gem to your gemfile and then run bundle install.
 Run scaffold. Lets assume our model is 'home' which has a 'title' and a 'body'(Optional)
 
 ```
@@ -33,18 +25,23 @@ $ rails g scaffold home title:string body:text
 
 Delete scaffold.scss, from (assets/stylesheets/scaffold.scss).
 
-(Optional) - Delete the Sass files i.e homes.scss.
+Optional:
+
+ ------>>> Delete the Sass files i.e homes.scss.
+
+ ------>>> Remove the line '*= require_tree .' from 'assets/stylesheets/application.css'(The option allows for the individual inclusion of each css file in the 'application.html.erb' file.)
+
 
 Delete all the files in views/homes except index.html.erb
 
 Generate the necessary files and folders by:
 
+N/B: You will be prompted to give the name of your model,
+In this case you'll write 'home' and press enter. All the files will then be in place. 
+
 ```
 $ rails g frontview:install
 ```
-
-N/B: You will be prompted to give the name of your model,
-In this case you'll write 'home' and press enter. All the files will then be in place. 
 
 Create & Migrate DB
 
@@ -60,14 +57,6 @@ $ rails s
 
 Access your web in: localhost:3000
 
-Optional:
-1. Remove the line '*= require_tree .' from 'assets/stylesheets/application.css'
-2. Remove or comment the line 'require("turbolinks").start()' from 'javascript/packs/application.js'
-
-Reasons for the above optional procedures:
-
-The first option allows for the individual inclusion of each css file in the 'application.html.erb' file.
-The second and third options disable turbolinks. Rails core team has chose to enable it by default. Unfortunately there are some subtle edge cases and scenarios in which Turbolinks will not work as expected, and for these reasons we don't think it's a great default.
 
 This gem is suitable for a new project. It helps to kickstart everything very fast. 
 If everything runs perfectly, don't forget to follow on twitter ========> https://twitter.com/frontview3

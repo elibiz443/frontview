@@ -4,20 +4,7 @@ module Frontview
       def write_in_header_file
         File.open("app/views/shared/_header.html.erb", "w+") {
           |file| file.puts(
-'<!-- Preloader Start -->
-<div id="preloader-active">
-  <div class="preloader d-flex align-items-center justify-content-center">
-    <div class="preloader-inner position-relative">
-      <div class="preloader-circle"></div>
-      <div class="preloader-img pere-text">
-        <img src="assets/preloader.png" alt="">
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Preloader Start -->
-
-<header>
+'<header>
   <!-- Header Start -->
   <div class="header-area header-transparrent">
     <div class="main-header header-sticky">

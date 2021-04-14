@@ -76,7 +76,7 @@ module Frontview
         <div class="row align-items-center">
           <div class="col-xl-12">
             <div class="footer-copy-right">
-              <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved || FrontView Rails Template (This template is free and can be used by anyone).</p>
+              <p>Copyright &copy; 2021 All rights reserved || FrontView Rails Template (This template is free and can be used by anyone).</p>
             </div>
           </div>
         </div>

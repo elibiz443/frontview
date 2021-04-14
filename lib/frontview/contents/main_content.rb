@@ -7,14 +7,6 @@ module Frontview
 "(function ($)
   { \"use strict\"
   
-/* Proloder */
-$(window).on('load', function () {
-  $('#preloader-active').delay(450).fadeOut('slow');
-  $('body').delay(450).css({
-    'overflow': 'visible'
-  });
-});
-
 /* slick Nav */
 // mobile_menu
 var menu = $('ul#navigation');

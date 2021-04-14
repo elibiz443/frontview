@@ -2,5 +2,7 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rake"
-gem "minitest"
+gem "rake", "~> 13.0"
+gem "minitest", "~> 5.0"
+gem "rubocop", "~> 1.7"
+gem "thor", "~> 1.1"
