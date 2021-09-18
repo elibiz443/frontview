@@ -2,6 +2,11 @@ module Frontview
   module Contents
     class StyleContent < Rails::Generators::Base
       def write_in_style
+
+        Dir.mkdir("app/assets/stylesheets/css") unless 
+        File.exists?("app/assets/stylesheets/css")
+        file = File.new("app/assets/stylesheets/css/style.css", "w+")
+
         File.open("app/assets/stylesheets/css/style.css", "w+") {
           |file| file.puts(
 '.main_h {
@@ -184,7 +189,14 @@ p {
   line-height: 2;
 }
 
+.content {
+  padding: 50px 2% 40px;
+  border-bottom: dotted 1px #212f3d;
+}
 
+.bottom-content {
+  padding: 50px 2% 40px;
+}
 
 .hero {
   position: relative;
@@ -374,7 +386,7 @@ footer {
   top: 50%;
   left: 10px;
   border-top: 1px solid #ccc;
-  
+  width: calc(100% - 20px);
 }
 .footer-social-overlap {
   position: relative;
