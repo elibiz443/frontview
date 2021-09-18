@@ -184,14 +184,7 @@ p {
   line-height: 2;
 }
 
-.content {
-  padding: 50px 2% 40px;
-  border-bottom: dotted 1px #212f3d;
-}
 
-.bottom-content {
-  padding: 50px 2% 40px;
-}
 
 .hero {
   position: relative;
@@ -381,7 +374,7 @@ footer {
   top: 50%;
   left: 10px;
   border-top: 1px solid #ccc;
-  width: calc(100% - 20px);
+  
 }
 .footer-social-overlap {
   position: relative;
