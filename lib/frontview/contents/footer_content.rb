@@ -4,95 +4,84 @@ module Frontview
       def write_in_footer_file
         File.open("app/views/shared/_footer.html.erb", "w+") {
           |file| file.puts(
-'<footer>
-  <div class="footer-main">
-    <div class="footer-area footer-padding">
-      <div class="container">
-        <div class="row  justify-content-between">
-          <div class="col-lg-3 col-md-4 col-sm-8">
-            <div class="single-footer-caption mb-30">
-              <!-- logo -->
-              <div class="footer-logo">
-                <a href="/"><img src="assets/logo.png" alt=""></a>
-              </div>
-              <div class="footer-tittle">
-                <div class="footer-pera">
-                  <p class="info1">
-                    We develop innovative & creative products & services that provide total communication & information solutions.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-5">
-            <div class="single-footer-caption mb-50">
-              <div class="footer-tittle">
-                <h4>Quick Links</h4>
-                <ul>
-                  <li><a href="#about">About Us</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#pricing">Pricing</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-7">
-            <div class="single-footer-caption mb-50">
-              <div class="footer-tittle">
-                <h4>Support</h4>
-                <ul>
-                  <li><a href="#">Report a bug</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms & Conditions</a></li>
-                  <li><a href="#">FAQs</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-8">
-            <div class="single-footer-caption mb-50">
-              <div class="footer-tittle">
-                <h4>Newsletter</h4>
-                <div class="footer-pera footer-pera2">
-                  <p>Subscribe to our weekly newsletter.</p>
-                </div>
-                <div class="footer-form">
-                  <div id="mc_embed_signup">
-                    <form target="_blank" action="#contact" method="get" class="subscribe_form relative mail_part" novalidate="true">
-                      <input type="email" name="EMAIL" id="newsletter-form-email" placeholder="Email Address" class="placeholder hide-on-focus" onfocus="this.placeholder = \'\'" onblur="this.placeholder = \'Email Address\'">
-                      <div class="form-icon">
-                        <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm"><img src="assets/paper_plane2.png" alt=""></button>
-                      </div>
-                      <div class="mt-10 info"></div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Copy-Right -->
-        <div class="row align-items-center">
-          <div class="col-xl-12">
-            <div class="footer-copy-right">
-              <p>Copyright &copy; 2021 All rights reserved || FrontView Rails Template (This template is free and can be used by anyone).</p>
-            </div>
-          </div>
-        </div>
-      </div>
+'<footer class="flex-rw">
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">About Us</h4>
+    </li>
+    <li>
+      <a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">
+        <i class="fas fa-question-circle"></i>&nbsp
+        What We Do
+      </a>
+    </li>
+    <li>
+      <a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">
+        <i class="fa fa-binoculars"></i>&nbsp
+        Case Studies
+      </a>
+    </li>
+  </ul>
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">Support</h4>
+    </li>
+    <li>
+      <a href="#" class="generic-anchor footer-list-anchor">
+        <i class="fas fa-tools"></i>&nbsp
+        Settings
+      </a>
+    </li>
+    <li>
+      <a href="#" class="generic-anchor footer-list-anchor">
+        <i class="fa fa-list"></i>&nbsp
+        FAQs
+      </a>
+    </li>
+  </ul>
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">Our Contacts</h4>
+    </li>
+    <li>
+      <a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">
+        <i class="fa fa-phone"></i>&nbsp
+        +000-123-456789
+      </a>
+    </li>
+    <li>
+      <a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">
+        <i class="fa fa-envelope"></i>&nbsp
+        frontviewtech4@gmail.com
+      </a>
+    </li>
+  </ul>
+  <section class="footer-social-section flex-rw">
+    <span class="footer-social-overlap footer-social-connect">
+      CONNECT <span class="footer-social-small">with</span> US
+    </span>
+    <span class="footer-social-overlap footer-social-icons-wrapper">
+      <a href="#" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fab fa-youtube"></i></a>
+    </span>
+  </section>
+  <section class="footer-bottom-section flex-rw">
+    <div class="footer-bottom-wrapper">   
+      <i class="fa fa-copyright" role="copyright"></i>
+      2021 Frontview
+      <address class="footer-address" role="company address"> Located in Olympus Mons, Mars</address>
+      <span class="footer-bottom-rights"> - All Rights Reserved.</span>
     </div>
-  </div>
+    <div class="footer-bottom-wrapper">
+      <a href="#" class="generic-anchor" rel="nofollow">Terms</a> | 
+      <a href="#" class="generic-anchor" rel="nofollow">Privacy</a>
+    </div>
+  </section>
 </footer>
-   
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.3/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/1.1.0/jquery.scrollUp.min.js"></script>'
+
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>'
           )
         }
       end

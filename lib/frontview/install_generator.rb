@@ -11,68 +11,11 @@ require "frontview/contents/index_routes_content"
 module Frontview
   class InstallGenerator < Rails::Generators::Base
     def create_assets_contents
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/logo.png")
+      tempfile = Down.download("../../assets/banner.jpg")
       FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
 
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/favicon.ico")
+      tempfile = Down.download("../../assets/favicon.png")
       FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/advert_btn.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/background.jpg")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/beauty.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/circle.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/desktop.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/doted1.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/doted2.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/doted3.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/elibiz.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/home_pic.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/paper_plane.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/paper_plane2.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/preloader.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/view1.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/view2.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/view3.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/view4.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      tempfile = Down.download("https://railsfront.herokuapp.com/assets/view5.png")
-      FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
-
-      Dir.mkdir("app/assets/stylesheets/css") unless File.exists?("app/assets/stylesheets/css")
-      file = File.new("app/assets/stylesheets/css/style.css", "w+")
     end
 
     def create_main_file
