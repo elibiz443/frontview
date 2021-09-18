@@ -11,10 +11,10 @@ require "frontview/contents/index_routes_content"
 module Frontview
   class InstallGenerator < Rails::Generators::Base
     def create_assets_contents
-      tempfile = Down.download("../../assets/banner.jpg")
+      tempfile = Down.download("https://github.com/elibiz443/frontview/blob/master/assets/banner.jpg")
       FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
 
-      tempfile = Down.download("../../assets/favicon.png")
+      tempfile = Down.download("https://github.com/elibiz443/frontview/blob/master/assets/favicon.png")
       FileUtils.mv(tempfile.path, "app/assets/images/#{tempfile.original_filename}")
     end
 
