@@ -44,21 +44,21 @@ If everything runs perfectly, don't forget to follow on twitter ========> https:
 
 You can also support the efforts to always update and provide the best themes free for everyone through: ========> https://www.buymeacoffee.com/elibiz
 
-## Sample screenshots of the frontview theme:
+## Sample screenshots of the frontview theme(Fully Responsive):
 
-### Home Screenshot in large screens:
+### Home Section:
 ![alt text](assets/sample1.png)
 
-### Features Screenshot:
+###  Introduction Section (Showing Header):
 ![alt text](assets/sample2.png)
 
-### Pricing Screenshot:
+### About Us Section:
 ![alt text](assets/sample3.png)
 
-### Contact Screenshot:
+### Our Services Section:
 ![alt text](assets/sample4.png)
  
-### Home Screenshot in small screens:
+### Contact Us & Footer Section:
 ![alt text](assets/sample5.png)
 
 ### Voilà 
