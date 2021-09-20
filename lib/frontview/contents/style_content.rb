@@ -199,6 +199,7 @@ p {
 }
 
 .hero {
+  margin-top: -70px;
   position: relative;
   background: url(../../../assets/banner.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;

@@ -5,16 +5,16 @@ This is frontview gem, a gem that gives the front-end template to the rails 6 ap
 ### Installation
 Add this line to your application's Gemfile:
 ```
-  gem 'frontview'
+gem 'frontview'
 ```
 And then execute:
 ```
-  bundle install
+bundle install
 ```
 ### Usage
 Run scaffold. Lets assume our model is 'home' which has a 'title' and a 'body'(Optional)
 ```
-  rails g scaffold home title:string body:text
+rails g scaffold home title:string body:text
 ```
 Delete scaffold.scss, from (assets/stylesheets/scaffold.scss).
 Optional:
@@ -27,15 +27,15 @@ Delete all the files in views/homes except index.html.erb
 Generate the necessary files and folders by:
 N/B: You will be prompted to give the name of your model, In this case you'll write 'home' and press enter. All the files will then be in place. 
 ```
-  rails g frontview:install
+rails g frontview:install
 ```
 Create & Migrate DB
 ```
-  rails db:create && rails db:migrate
+rails db:create && rails db:migrate
 ```
 Finally run the rails server and you are good to go:
 ```
-  rails s
+rails s
 ```
 Access your web in: localhost:3000
 
