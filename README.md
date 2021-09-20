@@ -31,7 +31,7 @@ rails g frontview:install
 ```
 Create & Migrate DB
 ```
-rails db:create && rails db:migrate
+rails db:create db:migrate
 ```
 Finally run the rails server and you are good to go:
 ```
