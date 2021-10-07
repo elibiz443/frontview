@@ -20,8 +20,6 @@ Delete scaffold.scss, from (assets/stylesheets/scaffold.scss).
 Optional:
  ------>>> Delete the Sass files i.e homes.scss.
 
- ------>>> Remove the line '*= require_tree .' from 'assets/stylesheets/application.css'(The option allows for the individual inclusion of each css file in the 'application.html.erb' file.)
-
 Delete all the files in views/homes except index.html.erb
 
 Generate the necessary files and folders by:
@@ -38,11 +36,6 @@ Finally run the rails server and you are good to go:
 rails s
 ```
 Access your web in: localhost:3000
-
-This gem is suitable for a new project. It helps to kickstart everything very fast. 
-If everything runs perfectly, don't forget to follow on twitter ========> https://twitter.com/frontview3
-
-You can also support the efforts to always update and provide the best themes free for everyone through: ========> https://www.buymeacoffee.com/elibiz
 
 ## Sample screenshots of the frontview theme(Fully Responsive):
 
@@ -83,11 +76,6 @@ You can also support the efforts to always update and provide the best themes fr
      /_____/     \    / /          |   
                   \  /_/___________/
                    \_________/
-
-## Development
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/elibiz443/frontview. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/elibiz443/frontview/blob/master/CODE_OF_CONDUCT.md).
