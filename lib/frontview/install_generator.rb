@@ -30,6 +30,7 @@ module Frontview
     end
 
     def write_in_other_files
+      puts "Hey 👋 welcome to frontview. This process might take sometime..."
       system("rails g frontview:contents:index_routes_content")
       system("rails g frontview:contents:style_content")
       system("rails g frontview:contents:main_content")
@@ -40,8 +41,7 @@ module Frontview
     end
 
     def show_info
-      puts :success
-      puts "👍🏽👍🏽👍🏽"
+      "Congrats!!! 🎉 🎊 🎈 frontview installation is a success 👍"
     end
   end
 end
