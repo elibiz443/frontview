@@ -33,11 +33,4 @@ describe Frontview do
       end
     end
   end
-
-  context "When installer finishes" do
-    it 'Should give success message' do
-      frontview = Frontview::InstallGenerator.new.show_info
-      expect(frontview).to eq("Congrats!!! 🎉 🎊 🎈 frontview installation is a success 👍")
-    end
-  end
 end

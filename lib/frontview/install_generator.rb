@@ -38,10 +38,7 @@ module Frontview
       system("rails g frontview:contents:alerts_content")
       system("rails g frontview:contents:footer_content")
       system("rails g frontview:contents:header_content")
-    end
-
-    def show_info
-      "Congrats!!! 🎉 🎊 🎈 frontview installation is a success 👍"
+      puts "Congrats!!! 🎉 🎊 🎈 frontview installation is a success 👍"
     end
   end
 end
